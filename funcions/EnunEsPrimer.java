@@ -40,18 +40,18 @@ public class Enun_esPrimer {
 
        boolean esPrimer;
         
-       System.out.print("Introdueix un número: ");
+       System.out.print("Introdueix un nÃºmero: ");
        int numero = teclat.nextInt();
        esPrimer = comprobacioPrimer(numero);
        esPrimer = checkprimenum(numero);
        if (esPrimer==false) {
-    	   System.out.print("El número " + 
+    	   System.out.print("El nÃºmero " + 
 			   		numero + 
-			   		" no és primer");
+			   		" no Ã©s primer");
        } else {
-           System.out.print("El número " +
+           System.out.print("El nÃºmero " +
     		   		numero +
-    		   		" és primer");
+    		   		" Ã©s primer");
        }
        teclat.close();
 	}
