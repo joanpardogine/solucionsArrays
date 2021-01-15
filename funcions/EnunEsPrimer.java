@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Enun_esPrimer {
+public class EnunEsPrimer {
 
 	public static boolean comprobacioPrimer(int posiblePrimer) {
         Boolean esPrimer = true;
