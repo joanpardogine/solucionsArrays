@@ -1,9 +1,12 @@
 # [01_Activitats_Programacio_Funcions](https://docs.google.com/document/d/1JQfU1sui4s5MJO6K5pRv1HFheDw_g4Ljzp9X6WD5dqA/edit?usp=sharing)
 
-## 1. Fer una funció per llegir un nombre per teclat. Aquesta funció haurà de tenir un paràmetre que sigui el missatge a mostrar a l'usuari. (mostraMissatge(num1 enter) retorna: res)
+## Fer una funció per llegir un nombre per teclat. Aquesta funció haurà de tenir un paràmetre que sigui el missatge a mostrar a l'usuari. (mostraMissatge(num1 enter) retorna: res)
 
-Dissenyar una funció que tingui dos nombres com a paràmetres i que calculi i retorni el màxim. (tornaMaxim(num1 enter, num2 enter) retorna: enter)
-TornaMaxIMin.java
+
+## Dissenyar una funció que tingui dos nombres com a paràmetres i que calculi i retorni el màxim. (tornaMaxim(num1 enter, num2 enter) retorna: enter)
+
+
+[TornaMaxIMin.java](https://github.com/joanpardogine/solucionsArraysFuncions/blob/main/funcions/TornaMaxIMin.java)
 
 
 Dissenyar una funció que tingui dos nombres com a paràmetres i que calculi i retorni el mínim. (tornaMimim(num1 enter, num2 enter) retorna: enter)
