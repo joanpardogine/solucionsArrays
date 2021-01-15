@@ -3,18 +3,28 @@
 ## Fer una funció per llegir un nombre per teclat. Aquesta funció haurà de tenir un paràmetre que sigui el missatge a mostrar a l'usuari. (mostraMissatge(num1 enter) retorna: res)
 
 
-## Dissenyar una funció que tingui dos nombres com a paràmetres i que calculi i retorni el màxim. (tornaMaxim(num1 enter, num2 enter) retorna: enter)
+## Dissenyar una funció que tingui dos nombres com a paràmetres i que calculi i retorni el màxim.
+
+(```tornaMaxim(num1 enter, num2 enter) retorna: enter```)
+
+**Solució**: [TornaMaxIMin.java](https://github.com/joanpardogine/solucionsArraysFuncions/blob/main/funcions/TornaMaxIMin.java)
 
 
-[TornaMaxIMin.java](https://github.com/joanpardogine/solucionsArraysFuncions/blob/main/funcions/TornaMaxIMin.java)
+## Dissenyar una funció que tingui dos nombres com a paràmetres i que calculi i retorni el mínim.
+
+(```tornaMimim(num1 enter, num2 enter) retorna: enter```)
+
+**Solució**: [TornaMaxIMin.java](https://github.com/joanpardogine/solucionsArraysFuncions/blob/main/funcions/TornaMaxIMin.java)
 
 
-Dissenyar una funció que tingui dos nombres com a paràmetres i que calculi i retorni el mínim. (tornaMimim(num1 enter, num2 enter) retorna: enter)
-TornaMaxIMin.java
-Dissenyar dues funcions:
-omplir_taula(): funció per omplir una taula (array) de n elements. Els paràmetres que rebrà la funció són la taula (array) a omplir i un enter que és el nombre d'elements. La funció no retorna res.
-maxim_taula(): funció que calculi i retorni el nombre més gran (màxim). El paràmetre que rebrà la funció és la taula (array). I retornarà el màxim (el nombre més gran) de la taula que li hem passat.
-OmplirIMaxArray.java
+## Dissenyar dues funcions:
+### omplir_taula(): funció per omplir una taula (array) de n elements. Els paràmetres que rebrà la funció són la taula (array) a omplir i un enter que és el nombre d'elements. La funció no retorna res.
+
+### maxim_taula(): funció que calculi i retorni el nombre més gran (màxim). El paràmetre que rebrà la funció és la taula (array). I retornarà el màxim (el nombre més gran) de la taula que li hem passat.
+
+**Solució**: [OmplirIMaxArray.java](https://github.com/joanpardogine/solucionsArraysFuncions/blob/main/funcions/OmplirIMaxArray.java)
+
+
 Fer una funció que rebrà dos nombres (dos paràmetres) i escrigui per pantalla tots els nombres compresos entre els dos nombres rebuts (amb els dos nombres inclosos). La funció no retorna res. ((num1 enter, num2 enter) retorna: res)mostraCompresos
 
 Fer una funció que calculi el doble d'un nombre. La funció rebrà (per paràmetre) un nombre i retornarà el doble, del nombre rebut. (tornaDoble(num enter) retorna: enter)
