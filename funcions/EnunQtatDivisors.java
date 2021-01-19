@@ -5,9 +5,9 @@ public class EnunQtatDivisors {
 	public static void main(String[] args) {
 	// TODO Auto-generated method stub
 		int num, contador = 0;
-		String DemanarNum = ("Introdueix el"
-				+ " número d'elements");
-		num = DadesUser(DemanarNum);
+		String missatge = ("Introdueix el"
+				+ " nÃºmero d'elements");
+		num = llegirEnterAmbMissatge(missatge);
 	
 		System.out.print("Numeros primers "
 				+ "i divisors de " + num + ": ");
@@ -24,11 +24,10 @@ public class EnunQtatDivisors {
 				+ ": " + contador);
 		}
 	
-		public static int DadesUser(String DemanarNum) {
-			String Missatge = DemanarNum;
+		public static int llegirEnterAmbMissatge(String missatgeAMostrar) {
 			int i;
 			Scanner teclat = new Scanner(System.in);
-			System.out.println(Missatge);
+			System.out.println(missatgeAMostrar);
 			i = teclat.nextInt();
 			teclat.close();
 			return i;
