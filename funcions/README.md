@@ -8,7 +8,6 @@ llegirEnterAmbMissatge(String Missatge) retorna: enter
 
 **Solució**: [LlegirNombreAmbMissatge.java](https://github.com/joanpardogine/solucionsArraysFuncions/blob/main/funcions/LlegirNombreAmbMissatge.java)
 
-
 ## Dissenyar una funció que rebi dos nombres com a paràmetres i que calculi i retorni el màxim.
 
 ``` java
@@ -70,22 +69,23 @@ tornaDoble(num enter) retorna: enter
 ## Escriu una funció que sumi els n (nombre demanat per teclat)
 Primers nombres senars.
 Primers nombres primers (primos) senars.
-Escriu una funció que sumi els n (nombre demanat per teclat)
+
+## Escriu una funció que sumi els n (nombre demanat per teclat)
 Primers nombres parells.
 Primers nombres primers (primos) parells.
-Escriure un programa que demani dos nombres i l'operació a realitzar sobre els dos nombres. En finalitzar, ha de mostrar el resultat de l'operació matemàtica realitzada. El primer nombre entrat serà el primer operand i el segon nombre el segon operand.
+
+
+## Escriure un programa que demani dos nombres i l'operació a realitzar sobre els dos nombres. En finalitzar, ha de mostrar el resultat de l'operació matemàtica realitzada. El primer nombre entrat serà el primer operand i el segon nombre el segon operand.
 L'operació pot ser:
-+
-suma
--
-resta
-/
-divisió sencera
-%
-mòdul (residu de la divisió)
-*
-multiplicació
-^
-elevat
-Heu de fer una funció per cada operació.
+| Simbol | Operació |
+| :------:| -----------|
+|+|suma|
+|-|resta|
+|/|divisió sencera|
+|%|mòdul (residu de la divisió)|
+|\*|multiplicació (producte)|
+|^|potencia (elevat)|
+
+
+Cal que feu una funció per cada operació.
 CalculDosNombres.java
