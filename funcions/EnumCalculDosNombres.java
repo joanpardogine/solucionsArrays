@@ -1,21 +1,21 @@
 import java.util.Scanner;
 
-public class CalculDosNombres {
+public class EnumCalculDosNombres {
 	/*
 	 * Escriure un programa que demani dos nombres i
-	 * l'operaciÛ a realitzar sobre els dos nombres.
+	 * l'operaci√≥ a realitzar sobre els dos nombres.
 	 * En finalitzar, ha de mostrar el resultat de 
-	 * l'operaciÛ matem‡tica realitzada. El primer
-	 *  nombre entrat ser‡ el primer operand i el
-	 * segon nombre el segon operand. ComenÁat plantejament!
-	 * L'operaciÛ pot ser:
+	 * l'operaci√≥ matem√†tica realitzada. El primer
+	 *  nombre entrat ser√† el primer operand i el
+	 * segon nombre el segon operand. Comen√ßat plantejament!
+	 * L'operaci√≥ pot ser:
 	 * +   	suma
 	 * -   	resta
-	 * /	divisiÛ sencera
-	 * %	mÚdul (residu de la divisiÛ)
-	 * *	multiplicaciÛ
+	 * /	divisi√≥ sencera
+	 * %	m√≤dul (residu de la divisi√≥)
+	 * *	multiplicaci√≥
 	 * ^	elevat
-	 * Heu de fer una funciÛ per cada operaciÛ.
+	 * Heu de fer una funci√≥ per cada operaci√≥.
 	 * */
 	
 	public static int suma(int num1, int num2) {
@@ -73,13 +73,13 @@ public class CalculDosNombres {
 		System.out.print("Escriu el segon dels nombres: ");
 		nombre2 = teclat.nextInt();
 		
-		System.out.print("Escriu la operaciÛ que vols fer" +
+		System.out.print("Escriu la operaci√≥ que vols fer" +
 				"amb els dos nombres:\n" +
 				" +  suma\n" + 
 				" -  resta\n" + 
-				" /  divisiÛ sencera\n" + 
-				" %  mÚdul (residu de la divisiÛ)\r\n" + 
-				" *  multiplicaciÛ\r\n" + 
+				" /  divisi√≥ sencera\n" + 
+				" %  m√≤dul (residu de la divisi√≥)\r\n" + 
+				" *  multiplicaci√≥\r\n" + 
 				" ^  elevat\n");
 		operacio = teclat.next().charAt(0);
 		
