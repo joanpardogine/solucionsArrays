@@ -5,7 +5,7 @@
 ## Fer una funció que torni un enter llegit per teclat. Aquesta funció haurà de tenir un paràmetre (tipus cadena) que sigui el missatge que es mostrarà a l'usuari per demanar-li el nombre enter.
 
 ``` java
-llegirEnterAmbMissatge(String Missatge) retorna: enter
+llegirEnterAmbMissatge(cadena Missatge) retorna: enter
 ```
 
 **Solució**: [LlegirNombreAmbMissatge.java](https://github.com/joanpardogine/solucionsArraysFuncions/blob/main/funcions/LlegirNombreAmbMissatge.java)
@@ -47,7 +47,7 @@ maxim_taula()
 
 ### Fer una funció que rebrà dos nombres (dos paràmetres) i escriurà per pantalla tots els nombres compresos entre els dos nombres rebuts (amb els dos nombres inclosos). La funció no retorna res. 
 ``` java
-mostraCompresos(primerNombre int, segonNombre int) retorna: res
+mostraCompresos(primerNombre enter, segonNombre enter) retorna: res
 ```
 **Solució**: [MostraValorsCompressos.java](https://github.com/joanpardogine/solucionsArraysFuncions/blob/main/funcions/MostraValorsCompressos.java)
 
