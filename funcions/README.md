@@ -3,7 +3,7 @@
 ## Fer una funció per llegir un nombre per teclat. Aquesta funció haurà de tenir un paràmetre que sigui el missatge a mostrar a l'usuari.
 
 ``` java
-mostraMissatge(num1 enter) retorna: res
+llegirEnterAmbMissatge(String Missatge) retorna: enter
 ```
 
 **Solució**: [LlegirNombreAmbMissatge.java](https://github.com/joanpardogine/solucionsArraysFuncions/blob/main/funcions/LlegirNombreAmbMissatge.java)
