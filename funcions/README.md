@@ -7,7 +7,7 @@ mostraMissatge(num1 enter) retorna: res
 ```
 
 
-## Dissenyar una funció que tingui dos nombres com a paràmetres i que calculi i retorni el màxim.
+## Dissenyar una funció que rebi dos nombres com a paràmetres i que calculi i retorni el màxim.
 
 ``` java
 tornaMaxim(num1 enter, num2 enter) retorna: enter
@@ -16,7 +16,7 @@ tornaMaxim(num1 enter, num2 enter) retorna: enter
 **Solució**: [TornaMaxIMin.java](https://github.com/joanpardogine/solucionsArraysFuncions/blob/main/funcions/TornaMaxIMin.java)
 
 
-## Dissenyar una funció que tingui dos nombres com a paràmetres i que calculi i retorni el mínim.
+## Dissenyar una funció que rebi dos nombres com a paràmetres i que calculi i retorni el mínim.
 
 ``` java
 tornaMimim(num1 enter, num2 enter) retorna: enter
@@ -26,26 +26,46 @@ tornaMimim(num1 enter, num2 enter) retorna: enter
 
 
 ## Dissenyar dues funcions:
-### omplir_taula(): funció per omplir una taula (array) de n elements. Els paràmetres que rebrà la funció són la taula (array) a omplir i un enter que és el nombre d'elements. La funció no retorna res.
 
-### maxim_taula(): funció que calculi i retorni el nombre més gran (màxim). El paràmetre que rebrà la funció és la taula (array). I retornarà el màxim (el nombre més gran) de la taula que li hem passat.
+``` java
+omplir_taula()
+``` 
+### La funció per omplir una taula (```array```) de ```n``` elements. Els paràmetres que rebrà la funció són la **taula** (```array```) a omplir i un **enter** que és el nombre d'elements. La funció no retorna res.
+
+
+``` java
+maxim_taula()
+```
+
+### La funció que calculi i retorni el nombre més gran (màxim). El paràmetre que rebrà la funció és la taula (array). I retornarà el màxim (el nombre més gran) de la taula que li hem passat.
 
 **Solució**: [OmplirIMaxArray.java](https://github.com/joanpardogine/solucionsArraysFuncions/blob/main/funcions/OmplirIMaxArray.java)
 
 
-Fer una funció que rebrà dos nombres (dos paràmetres) i escrigui per pantalla tots els nombres compresos entre els dos nombres rebuts (amb els dos nombres inclosos). La funció no retorna res. 
+### Fer una funció que rebrà dos nombres (dos paràmetres) i escriurà per pantalla tots els nombres compresos entre els dos nombres rebuts (amb els dos nombres inclosos). La funció no retorna res. 
 ``` java
-((num1 enter, num2 enter) retorna: res)mostraCompresos
+mostraCompresos(primerNombre int, segonNombre int) retorna: res
+```
+**Solució**: [MostraValorsCompressos.java](https://github.com/joanpardogine/solucionsArraysFuncions/blob/main/funcions/MostraValorsCompressos.java)
+
+## Fer una funció que calculi el doble d'un nombre. La funció rebrà (per paràmetre) un nombre i retornarà el doble, del nombre rebut.
+``` java
+tornaDoble(num enter) retorna: enter
 ```
 
-Fer una funció que calculi el doble d'un nombre. La funció rebrà (per paràmetre) un nombre i retornarà el doble, del nombre rebut. (tornaDoble(num enter) retorna: enter)
-EnunTornaDoble.java
-Fer una funció que digui si un nombre és primer o no. 
-EnunEsPrimer.java
-Crear un programa que llegeix un nombre per teclat i que escrigui la quantitat de divisors primers del nombre llegit, i quins són aquests divisors primers.
-EnunQtatDivisors.java
-Igual que l'anterior, però en comptes de llegir un nombre per teclat, tindrà una taula de nombres. Ha de calcular el nombre de divisors primers de cada nombre de la taula i mostrar-ho per pantalla.
-Escriu una funció que sumi els n (nombre demanat per teclat)
+**Solució**: [EnunTornaDoble.java](https://github.com/joanpardogine/solucionsArraysFuncions/blob/main/funcions/EnunTornaDoble.java)
+
+### Fer una funció que digui si un nombre és primer o no. 
+
+**Solució**: [EnunEsPrimer.java](https://github.com/joanpardogine/solucionsArraysFuncions/blob/main/funcions/EnunEsPrimer.java)
+
+## Crear un programa que llegeix un nombre per teclat i que escrigui la quantitat de divisors primers del nombre llegit, i quins són aquests divisors primers.
+
+**Solució**: [EnunQtatDivisors.java](https://github.com/joanpardogine/solucionsArraysFuncions/blob/main/funcions/EnunQtatDivisors.java)
+
+## Igual que l'anterior, però en comptes de llegir un nombre per teclat, tindrà una taula de nombres. Ha de calcular el nombre de divisors primers de cada nombre de la taula i mostrar-ho per pantalla.
+
+## Escriu una funció que sumi els n (nombre demanat per teclat)
 Primers nombres senars.
 Primers nombres primers (primos) senars.
 Escriu una funció que sumi els n (nombre demanat per teclat)
