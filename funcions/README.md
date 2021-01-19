@@ -1,4 +1,6 @@
-# [01_Activitats_Programacio_Funcions](https://docs.google.com/document/d/1JQfU1sui4s5MJO6K5pRv1HFheDw_g4Ljzp9X6WD5dqA/edit?usp=sharing)
+# Activitats Programació Funcions
+
+[Activitats Programació Funcions](https://docs.google.com/document/d/1JQfU1sui4s5MJO6K5pRv1HFheDw_g4Ljzp9X6WD5dqA/edit?usp=sharing)
 
 ## Fer una funció que torni un enter llegit per teclat. Aquesta funció haurà de tenir un paràmetre (tipus cadena) que sigui el missatge que es mostrarà a l'usuari per demanar-li el nombre enter.
 
