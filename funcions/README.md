@@ -42,6 +42,9 @@ omplir_taula()
 ``` java
 maxim_taula()
 ```
+``` java
+llegirEnterAmbMissatge(cadena Missatge) retorna: enter
+```
 
 ### La funció que calculi i retorni el nombre més gran (màxim). El paràmetre que rebrà la funció és la taula (array). I retornarà el màxim (el nombre més gran) de la taula que li hem passat.
 
