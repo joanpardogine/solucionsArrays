@@ -6,6 +6,8 @@
 mostraMissatge(num1 enter) retorna: res
 ```
 
+**Solució**: [LlegirNombreAmbMissatge.java](https://github.com/joanpardogine/solucionsArraysFuncions/blob/main/funcions/LlegirNombreAmbMissatge.java)
+
 
 ## Dissenyar una funció que rebi dos nombres com a paràmetres i que calculi i retorni el màxim.
 
