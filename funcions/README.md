@@ -1,18 +1,26 @@
 # [01_Activitats_Programacio_Funcions](https://docs.google.com/document/d/1JQfU1sui4s5MJO6K5pRv1HFheDw_g4Ljzp9X6WD5dqA/edit?usp=sharing)
 
-## Fer una funció per llegir un nombre per teclat. Aquesta funció haurà de tenir un paràmetre que sigui el missatge a mostrar a l'usuari. (mostraMissatge(num1 enter) retorna: res)
+## Fer una funció per llegir un nombre per teclat. Aquesta funció haurà de tenir un paràmetre que sigui el missatge a mostrar a l'usuari.
+
+``` java
+mostraMissatge(num1 enter) retorna: res
+```
 
 
 ## Dissenyar una funció que tingui dos nombres com a paràmetres i que calculi i retorni el màxim.
 
-(```tornaMaxim(num1 enter, num2 enter) retorna: enter```)
+``` java
+tornaMaxim(num1 enter, num2 enter) retorna: enter
+```
 
 **Solució**: [TornaMaxIMin.java](https://github.com/joanpardogine/solucionsArraysFuncions/blob/main/funcions/TornaMaxIMin.java)
 
 
 ## Dissenyar una funció que tingui dos nombres com a paràmetres i que calculi i retorni el mínim.
 
-(```tornaMimim(num1 enter, num2 enter) retorna: enter```)
+``` java
+tornaMimim(num1 enter, num2 enter) retorna: enter
+```
 
 **Solució**: [TornaMaxIMin.java](https://github.com/joanpardogine/solucionsArraysFuncions/blob/main/funcions/TornaMaxIMin.java)
 
@@ -25,7 +33,10 @@
 **Solució**: [OmplirIMaxArray.java](https://github.com/joanpardogine/solucionsArraysFuncions/blob/main/funcions/OmplirIMaxArray.java)
 
 
-Fer una funció que rebrà dos nombres (dos paràmetres) i escrigui per pantalla tots els nombres compresos entre els dos nombres rebuts (amb els dos nombres inclosos). La funció no retorna res. ((num1 enter, num2 enter) retorna: res)mostraCompresos
+Fer una funció que rebrà dos nombres (dos paràmetres) i escrigui per pantalla tots els nombres compresos entre els dos nombres rebuts (amb els dos nombres inclosos). La funció no retorna res. 
+``` java
+((num1 enter, num2 enter) retorna: res)mostraCompresos
+```
 
 Fer una funció que calculi el doble d'un nombre. La funció rebrà (per paràmetre) un nombre i retornarà el doble, del nombre rebut. (tornaDoble(num enter) retorna: enter)
 EnunTornaDoble.java
