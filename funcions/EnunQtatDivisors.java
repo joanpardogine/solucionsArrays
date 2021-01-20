@@ -13,7 +13,7 @@ public class EnunQtatDivisors {
 				+ "i divisors de " + num + ": ");
 	
 		for (int i = 2; i < num; i++) {
-			if (DivisorONo(num, i) && NumPrimerONo(i)) {
+			if (divisorONo(num, i) && numPrimerONo(i)) {
 				System.out.print(i + " ");
 				contador++;
 			}
@@ -33,7 +33,7 @@ public class EnunQtatDivisors {
 			return i;
 		}
 	
-		public static boolean DivisorONo(int num, int posibledivisor) {
+		public static boolean divisorONo(int num, int posibledivisor) {
 			boolean divisor = false;
 			if (num % posibledivisor == 0) {
 				divisor = true;
@@ -41,7 +41,7 @@ public class EnunQtatDivisors {
 			return divisor;
 		}
 	
-		public static boolean NumPrimerONo(int num) {
+		public static boolean numPrimerONo(int num) {
 			boolean primer = true;
 			if (num < 2) {
 				primer = false;
