@@ -6,22 +6,22 @@ public class MatriusBeckNormal {
 		// TODO Auto-generated method stub
 		
 		Scanner teclat = new Scanner (System.in);
-		int m, n;
+		int files, columnes;
 		int k = 0;
 		boolean sortir = false;
 		boolean becknormal = true;
 		
 			System.out.println("Introdueix les files"
 					+ " que vols que tingui la matriu");
-			m = teclat.nextInt();
+			files = teclat.nextInt();
 			System.out.println("Introdueix les columnes"
 					+ " que vols que tingui la matriu");
-			n = teclat.nextInt();
-			if (n%2 != 0) {
+			columnes = teclat.nextInt();
+			if (columnes % 2 != 0) {
 				sortir = true;
 			}
 			
-		int numeros[][] = new int[m][n];
+		int numeros[][] = new int[files][n];
 		 
 		for (int i = 0; i < numeros.length && sortir == false; i++) {
 			for (int j = 0; j < numeros[i].length; j++) {
