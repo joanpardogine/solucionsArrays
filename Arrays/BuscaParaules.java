@@ -34,11 +34,11 @@ public class BuscaParaules {
 						}
 					}
 				}
-				if (trobada) { // for (int i = 0; i<lletres.length; i++)
+				if (trobada == true) { // for (int i = 0; i<lletres.length; i++)
 					break;
 				}
 			}
-			if (trobada) {
+			if (trobada == true) {
 			System.out.println("La paraula " + par + "\ncomença" +
 					" a l\'index " + primeraPos + "\ni acaba a l\'index " + 
 					darreraPos);
