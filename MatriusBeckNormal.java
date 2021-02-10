@@ -21,9 +21,9 @@ public class MatriusBeckNormal {
 				sortir = true;
 			}
 			
-		int numeros[][] = new int[files][n];
+		int numeros[][] = new int[files][columnes];
 		 
-		for (int i = 0; i < numeros.length && sortir == false; i++) {
+		for (int i = 0; i < numeros.length; i++) {
 			for (int j = 0; j < numeros[i].length; j++) {
 				System.out.println("Introdueix el valor " + j + " de la fila " + i);
 				numeros[i][j] = teclat.nextInt();
@@ -37,8 +37,8 @@ public class MatriusBeckNormal {
 		 * z z t t
 		 * g h l n
 		*/
-		for (int i = 0; i < numeros.length && sortir == false; i++) {
-			for (k = 0; k < numeros[i].length - 1; k=k+2) {
+		for (int i = 0; i < numeros.length && sortir == false; i++) {  // for per controlar les files
+			for (k = 0; k < numeros[i].length - 1; k=k+2) {        // for per controlar les columnes
 				if (numeros[i][k] != numeros[i][k+1]) {
 					becknormal = false;
 					break;
