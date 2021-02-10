@@ -5,8 +5,8 @@ public class BuscaParaules {
 				'p','r','o','g','r','a','m','a','c','i','o',
 				'u','u','g','n','p','r',
 				'b','a','s','e','d','e','d','a','d','e','s','i','o'};
-		// String paraula = "programacio";
-		String[] paraules = {"programacio", "basededades"};
+		String paraula = "programacio";
+		//String[] paraules = {"programacio", "basededades"};
 		
 		String par = "";
 		int x = 0, primeraPos, darreraPos;
